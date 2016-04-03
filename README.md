@@ -66,3 +66,10 @@ collected).
 > When would * fail to match?
 
 Never? Unless being used in combination with other notation.
+
+## methods
+
+- Ways to make method private:
+
+    - After creating a method like `def my_method`, declare another statement `private :my_method`
+    - Declare `private` statement in a class and every methods below that statement become private
