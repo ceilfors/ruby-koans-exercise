@@ -31,3 +31,15 @@ When you want hash to raise an error if the key is not available.
 
 Found out that ruby's parentheses is optional and the `expected` can be used without a variable when parenthses is used.
  Guessing ruby got confused about block and map literals. Haven't reached the topic about block yet.
+ 
+## strings
+
+- Supports various interesting ways of creating new string
+    - Flexible quoting: `%!flexible quotes can handle both ' and " characters!`
+    - Here documents: `<<EOS .. EOS`. Text always starts in new line
+    - Pattern is created with slashy string: `/regex/`
+    
+> Ruby programmers tend to favor the shovel operator (<<) over the plus equals operator (+=) when building up strings. Why?
+
+I guess this is down to whether you want to have side effects in our original String or not?
+http://stackoverflow.com/a/4684507/2464295
