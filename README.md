@@ -77,3 +77,9 @@ Never? Unless being used in combination with other notation.
 ## constants
 
 - Double colons `::` is used to reference top level constants (constants that are declared out of class)
+
+## control_statements
+
+- `value = if false; :true_value end` will store `nil` to value variable!
+- **If modifier**: `result = :true_value if true`
+- `break <value>` can return value
