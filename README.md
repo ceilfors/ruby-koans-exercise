@@ -43,3 +43,16 @@ Found out that ruby's parentheses is optional and the `expected` can be used wit
 
 I guess this is down to whether you want to have side effects in our original String or not?
 http://stackoverflow.com/a/4684507/2464295
+
+## symbols
+
+> Why do we convert the list of symbols to strings and then compare against the string value rather than against symbols?
+
+Because once you can't expect two different object types to be the same. One is Symbol, another one is String
+
+The question could be asking why don't we just do `all_symbols.include?(:test_symbol)` too. http://stackoverflow.com/a/4686160/2464295
+
+> Why is it not a good idea to dynamically create a lot of symbols?
+
+Because once it's created, it will be kept forever in memory until the ruby process dies (Can't be garbage
+collected).
