@@ -56,3 +56,13 @@ The question could be asking why don't we just do `all_symbols.include?(:test_sy
 
 Because once it's created, it will be kept forever in memory until the ruby process dies (Can't be garbage
 collected).
+
+## regular_expressions
+
+- Cryptic variable to get the result of regex group capture: `$1`, `$2`. Adapted from bash?
+
+    - Wait, [there's more](http://jimneath.org/2010/01/04/cryptic-ruby-global-variables-and-their-meanings.html)!
+
+> When would * fail to match?
+
+Never? Unless being used in combination with other notation.
