@@ -73,3 +73,7 @@ Never? Unless being used in combination with other notation.
 
     - After creating a method like `def my_method`, declare another statement `private :my_method`
     - Declare `private` statement in a class and every methods below that statement become private
+    
+## constants
+
+- Double colons `::` is used to reference top level constants (constants that are declared out of class)
