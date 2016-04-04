@@ -83,3 +83,8 @@ Never? Unless being used in combination with other notation.
 - `value = if false; :true_value end` will store `nil` to value variable!
 - **If modifier**: `result = :true_value if true`
 - `break <value>` can return value
+
+## true_and_false
+
+- Every objects including `0`, `[]`, `{}`, `""` are truthy values except nil (and `false` of course)!
+
