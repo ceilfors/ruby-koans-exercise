@@ -88,3 +88,10 @@ Never? Unless being used in combination with other notation.
 
 - Every objects including `0`, `[]`, `{}`, `""` are truthy values except nil (and `false` of course)!
 
+## exceptions
+
+- Exception hierarchy `RuntimeError < StandardError < Exception < Object`
+- instanceof can be done with `is_a?`
+- Ruby to Java mapping:
+    - rescue == catch
+    - ensure == finally
