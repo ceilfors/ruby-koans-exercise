@@ -14,6 +14,14 @@
 #   about_triangle_project_2.rb
 #
 def triangle(a, b, c)
+  # Validation
+  args = [a, b, c].sort
+  if args.include?(0) or
+      args.index { |d| d < 0} != nil or
+      args[2] >= args[0] + args[1]
+    raise TriangleError
+  end
+
   if a == b and b == c and a == c
     :equilateral
   elsif a == b or a == c or b == c
