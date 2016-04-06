@@ -111,3 +111,5 @@ Same like groovy inject!
 When you get to the "AboutSandwichCode" koan, recheck your answer.
 
 Because ruby will close the file automatically for us when the block ends.
+
+## 
