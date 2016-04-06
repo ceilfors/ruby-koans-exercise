@@ -95,3 +95,19 @@ Never? Unless being used in combination with other notation.
 - Ruby to Java mapping:
     - rescue == catch
     - ensure == finally
+    
+## iterations
+
+- Seems like `do..end` and `{}` is doing the same thing? Need more research.
+- `(1..3)` doesn't return Array, it actually returns Range object.
+
+> Describe in your own words what inject does.
+
+Same like groovy inject!
+
+> Why did we do it that way instead of the following?
+`file = File.open(filename)`
+\# code to read 'file'
+When you get to the "AboutSandwichCode" koan, recheck your answer.
+
+Because ruby will close the file automatically for us when the block ends.
