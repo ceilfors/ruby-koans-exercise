@@ -112,4 +112,8 @@ When you get to the "AboutSandwichCode" koan, recheck your answer.
 
 Because ruby will close the file automatically for us when the block ends.
 
-## 
+## classes
+
+> Why is this so?
+
+Because it's not a keyword argument hence the argument is not optional.
