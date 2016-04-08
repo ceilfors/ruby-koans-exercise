@@ -117,3 +117,7 @@ Because ruby will close the file automatically for us when the block ends.
 > Why is this so?
 
 Because it's not a keyword argument hence the argument is not optional.
+
+## open_classes
+
+- You can add a method to an existing class just by redeclaring the class!
