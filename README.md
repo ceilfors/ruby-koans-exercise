@@ -121,3 +121,8 @@ Because it's not a keyword argument hence the argument is not optional.
 ## open_classes
 
 - You can add a method to an existing class just by redeclaring the class!
+
+## dice_project
+
+> If the rolls are random, then it is possible (although not likely) that two consecutive rolls are equal.  What would be a better way to test this?
+
