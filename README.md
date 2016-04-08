@@ -126,3 +126,4 @@ Because it's not a keyword argument hence the argument is not optional.
 
 > If the rolls are random, then it is possible (although not likely) that two consecutive rolls are equal.  What would be a better way to test this?
 
+Compare the object_id for each Array object returned.
