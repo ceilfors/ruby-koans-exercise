@@ -146,3 +146,9 @@ Compare the object_id for each Array object returned.
 I would prefer the `self.method` when I don't have many methods. `class << self` might
 be handy when I'm to declare a lot of class methods, hence I don't need to type so many
 `self`s.
+
+## message_passing
+ 
+> Why does Ruby provide both `send` and `__send__` ?
+
+So that developers can still call `__send__` when `send` is overridden for other usage.
