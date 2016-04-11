@@ -127,3 +127,20 @@ Because it's not a keyword argument hence the argument is not optional.
 > If the rolls are random, then it is possible (although not likely) that two consecutive rolls are equal.  What would be a better way to test this?
 
 Compare the object_id for each Array object returned.
+
+## class_methods
+
+- Can add method on demand to any objects (including class as they are objects too):
+
+    fido = Dog.new
+    def fido.wag
+      :fidos_wag
+    end
+    
+- Class statement can return values, just like how if statement works.
+ 
+> The two major ways to write class methods are: ... Which do you prefer and why?
+
+I would prefer the `self.method` when I don't have many methods. `class << self` might
+be handy when I'm to declare a lot of class methods, hence I don't need to type so many
+`self`s.
