@@ -152,3 +152,8 @@ be handy when I'm to declare a lot of class methods, hence I don't need to type 
 > Why does Ruby provide both `send` and `__send__` ?
 
 So that developers can still call `__send__` when `send` is overridden for other usage.
+
+## proxy_object_project
+
+- Why do we need asterisk in `@object.send(.. *args)`?
+- Why does the message of calling `tv.channel = ` results in `:channel=`. What's with the equal sign?
